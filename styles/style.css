@@ -86,3 +86,123 @@ nav ul li a{
     width: 584px;
     
 }
+/* Shared style */
+.text-center{
+    text-align: center;
+}
+
+/* About section */
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+.section-description{
+    font-size: 18px;
+    color: #757575;
+}
+.secondary-bg{
+    color: #FFFFFF;
+}
+/* only about section */
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    /* border: 1px solid black; */
+    text-align: center;
+    margin-top: 140px;
+}
+/* main Style */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.about-label{
+    color: #757575;
+    font-weight: 400;
+    font-size: 18px;
+}
+.about-description{
+    color: #474747;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* Skills Section */
+.skills-container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    gap: 40px;
+    padding-bottom: 5px;
+    
+}
+.skill{
+    border-radius: 5px;
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0 rgb(29, 29, 29);
+}
+
+.skills{
+    text-align: center;
+    
+}
+
+/* section of resume container */
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+
+.experiance-title{
+    font-size: 25px;
+    margin-bottom: 0px;
+}
+.experiance-description{
+    color: #757575;
+}
+
+.experiance-sub-title{
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+
+}
+
+.btn-primary{
+    margin-top: 50px;
+}
+
+/* Footer style */
+.section-title-for-h{
+    color: #181818 ;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+
+.footer-column{
+    width: 50%;
+}
+
+footer input[type="text"], footer input[type="Email"], footer textarea{
+    height: 64px;
+    border-radius: 6px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+}
